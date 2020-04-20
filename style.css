@@ -1,0 +1,49 @@
+body {
+    background: url('../exam/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    height: 400px;
+    width: 400px;
+    background-color: #335ea8;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ttl {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+#submit {
+    height: 40px;
+    background-color: #bdd4fd;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 17px;
+    color: #28467b;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+#text {
+    color: white;
+
+}
+
+#password {
+    color: white;
+}
